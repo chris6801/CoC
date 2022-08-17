@@ -35,6 +35,12 @@ confusion_scroll = Item(
     name="Confusion Scroll",
     consumable=cunsumable.ConfusionConsumable(number_of_turns=10),
 )
+fireball_scroll = Item(
+    char="~",
+    color=(255, 0, 0),
+    name="Fireball Scroll",
+    consumable=cunsumable.FireballDamageConsumable(damage=12, radius=3),
+)
 health_potion = Item(
     char="!",
     color=(127, 0, 255),
